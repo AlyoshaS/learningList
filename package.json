@@ -1,0 +1,23 @@
+{
+  "name": "learning-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": "git@github.com:AlyoshaS/learningList.git",
+  "author": "Evelyn Schmitz <evelynschmitz1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
+  }
+}
